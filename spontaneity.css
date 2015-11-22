@@ -1,0 +1,75 @@
+/* CSS declarations go here */
+li {list-style-type: none;}
+/* CSS declarations go here */
+.error {
+       color:red;	
+       display:block;
+}
+
+#background {
+	    background-image: url("trianglify-background.svg");
+	    background-size: cover;
+	    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.col-centered {
+	      width: 40%;
+}
+
+.col-centered, template { 
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.panel-warning {
+	       background-color: rgb(255, 103, 103);
+}
+
+.container {
+	   justify-content: center;
+	   align-content: center;
+}
+
+.eventDetailsBody {
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 7px;
+    width: 60%;
+    background-color: #FAEBD7;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.close{
+  line-height: 18px;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+  opacity: 0.5;
+  filter: alpha(opacity=20);
+  text-decoration: none;
+}
+
+.close a:hover {
+  color: #000000;
+  text-decoration: none;
+  opacity: 0.7;
+  filter: alpha(opacity=40);
+  cursor: pointer;
+}
+
+#listed-event {
+	      width: 40%;
+}
+
+#map-canvas {
+	    height: 100%;
+    margin: 0px;
+    padding: 0px
+}
